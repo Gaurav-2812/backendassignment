@@ -20,16 +20,20 @@ Before you begin, ensure you have met the following requirements:
    ```shell
    git clone https://github.com/Gaurav-2812/backendassignment.git
    ```
-2. Update the MongoURL in app.js with your MongoDB Atlas cluster URL or your local MongoDB URL:
+2. Install the dependencies:
+   ```shell
+   npm install
+   ```
+3. Update the MongoURL in app.js with your MongoDB Atlas cluster URL or your local MongoDB URL:
 
    ```shell
    const MongoURL = 'your_mongodb_url'; // Add your atlas cluster url or Local MongoDB url here
    ```
-3. Start the server by running:
+4. Start the server by running:
    ```shell
    node app.js
    ```
-4. The server will start running on the specified port (default is 4000). You can access the API at http://localhost:4000.
+5. The server will start running on the specified port (default is 4000). You can access the API at http://localhost:4000.
 
 # Task Management API
 
