@@ -30,3 +30,28 @@ Before you begin, ensure you have met the following requirements:
    node app.js
    ```
 4. The server will start running on the specified port (default is 4000). You can access the API at http://localhost:4000.
+
+# Task Management API
+
+## API Endpoints
+
+- **POST /tasks**: Create a new task.
+- **GET /tasks**: Retrieve all tasks.
+- **GET /tasks/completed**: Retrieve completed tasks.
+- **GET /tasks/incomplete**: Retrieve incomplete tasks.
+- **PUT /tasks/:id**: Update a task by ID.
+- **PUT /tasks/complete/:id**: Mark a task as complete.
+- **PUT /tasks/incomplete/:id**: Mark a task as incomplete.
+- **DELETE /tasks/:id**: Delete a task by ID.
+
+## Built With
+
+- Express.js - Web framework for Node.js
+- MongoDB - Database for storing task data
+- Mongoose - MongoDB object modeling tool
+- Cors - Middleware for enabling Cross-Origin Resource Sharing (CORS)
+
+## Author
+
+Gaurav Kumar
+
