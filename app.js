@@ -4,7 +4,7 @@ const cors = require('cors');
 
 const app = express();
 const port = process.env.PORT || 4000;
-const MongoURL = 'your_mongodb_url'; // Add your atlas cluster url or Local MongoDB url here
+const MongoURL = 'your_mongodb_url' // Add your atlas cluster url or Local MongoDB url here
 
 // Enable CORS
 app.use(cors());
@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB Atlas
-mongoose.connect(MongoUrl, {
+mongoose.connect(MongoURL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
